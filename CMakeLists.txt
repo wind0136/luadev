@@ -3,7 +3,8 @@ project(lua)
 
 set (CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake/Modules)
 
-set (LUAROOT ${CMAKE_SOURCE_DIR}/src)
+set (LUA     ${CMAKE_SOURCE_DIR}/lua)
+set (LUA_HDR ${LUA}/includes)
 
 add_subdirectory(lua)
 add_subdirectory(examples)
