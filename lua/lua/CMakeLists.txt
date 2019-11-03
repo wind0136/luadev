@@ -8,5 +8,4 @@ target_include_directories(lua PUBLIC
 	${LUA_HDR}
 	)
 
-
 install(TARGETS lua RUNTIME DESTINATION bin)

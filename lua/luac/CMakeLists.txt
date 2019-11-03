@@ -8,5 +8,4 @@ target_include_directories(luac PUBLIC
 	${LUA_HDR}
 	)
 
-
 install(TARGETS luac RUNTIME DESTINATION bin)
